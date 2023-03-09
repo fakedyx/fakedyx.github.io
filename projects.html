@@ -1,0 +1,210 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: faker
+ * @Date: 2023-01-09 22:04:37
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-03-09 21:06:24
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <script language="javascript" src="js/jquery.min.js"></script>
+        <script language="javascript" src="js/bootstrap.min.js"></script>
+        <!-- -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/cssReset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/css_layout.css"/>
+
+        <!-- 搜索引擎优化stuff -->
+        <meta name="description"
+        content="Academic website for Yuxuan Dong.">
+        <meta name="keywords" content="Yuxuan Dong">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156016426-1"></script>
+        <script>
+        // for Google Analytics, for free!
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-156016426-1');
+
+        </script>
+
+        <title>XJTU/董宇轩</title>
+
+        <!--引入图标-->
+        <link rel = "shortcut icon" href = "favico.ico" />
+    </head>
+    <body>
+        <!--左面的快捷导航-->
+        <div id="sidebar">
+            <img class='me' src="img/me.jpg"></img>
+            <br/>
+            <div class="info">
+              <h2 class="name">Yuxuan Dong</h2>
+              <h2 class="name_chinese">董宇轩</h2>
+              <h2 class="email">dongyx158@qq.com</h2>
+              <h2 class="email">2499146889@stu.xjtu.edu.cn</h2>
+              <h2 class="email">XJTU University</h2>
+              <h2 class="link">
+                <a style="font-size: 14px; color: yellow; font-weight: bold;" href="https://scholar.google.com/">Google Scholar</a>
+              </h2>
+              <h2 class="link">
+                <a href="https://www.cnki.net/">[中国知网]</a>
+                <a href="https://paperswithcode.com/">[PaperWithCode]</a>
+              </h2>
+              <h2 class="link">
+                <a href="https://github.com/">[Github]</a>
+                <a href="https://stackoverflow.com/">[stackoverflow]</a>
+                <a href="https://toscode.gitee.com/Fake_dyx/dashboard/projects">[Gitee]</a>
+              </h2>
+              <h2 class="link">
+                <a href="https://blog.csdn.net/qq_56108311?spm=1010.2135.3001.5343">[CSDN]</a>
+                <a href="https://home.cnblogs.com/u/3079731">[博客园]</a>
+                <a href="https://www.yuque.com/dashboard">[语雀]</a>
+              </h2>
+              <h2 class="link">
+                <a href="https://www.zhihu.com/">[知乎]</a>
+                <a href="https://www.youtube.com">[Youtube]</a>
+                <a href="https://space.bilibili.com">[BiliBili]</a>
+              </h2>
+              
+            </div>
+            <div id="navigation">
+                <a class="nav_item" href="./index.html">
+                    <img src="img/about.png"></img> &nbsp; About
+                  </a>
+                  <a class="nav_item" href="./projects.html">
+                    <img src="img/project.png"></img> &nbsp; Projects
+                  </a>
+                  <a class="nav_item" href="./teaching.html">
+                    <img src="img/teaching.png"></img> &nbsp; Teaching / Talks
+                  </a>
+                  <a class="nav_item" href="./competition.html">
+                    <img src="img/competiton.png"></img> &nbsp; Competitons
+                  </a>
+                  <a class="nav_item" href="./letter.html">
+                    <img src="img/letter.png"></img> &nbsp; Statement
+                  </a>
+          
+            </div>
+          </div>
+
+          <div id="main" style="color:black">
+            <!-- <img src='img/pic2.png' alt="backgroundImage" id='background'> -->
+            <div class="title">
+              <a class="title_link" id="" href="#">Projects</a>
+              <img src="https://visitor-badge.glitch.me/badge?page_id=fakedyx&right_color=blue" alt=""/>
+            </div>
+
+            <section id='project'>
+              <div>
+                  <div style="position: relative;">
+                      <div class="O-background"></div>
+                      <div class="proj-picture">
+                          <img src="img/snn.png" alt="项目的DEMO图" style="width: 100%;height: 100%;">
+                      </div>
+                      <div id="project1" class="projects">
+                          <div class="div-proj-div">
+                              <div class="project-img">
+                                  <div><img src="img/rl.png" alt="项目的LOGO图" class="proj-img"></div>
+                              </div>
+                          </div>
+                          <di class="project-all">
+      
+                              <div class="proj1">
+                                  <div class="project-head">基于线性回归的PM2.5预测</div>
+      
+                                  <div class="project-time">2020.11 - 2020.12</div>
+                              </div>
+      
+                              <div class="proj2">
+                                  <div class="project-role">算法设计、开发</div>
+                                  <div class="line"></div>
+                                  <div class="project-organization">xjtu</div>
+                              </div>
+      
+                              <div class="project-content">
+                                  </br>
+                                  本工程使用普通线性回归模型，使用矩阵模型进行矩阵计算初始化参数。</br>
+                                  </br>
+                                  使用梯度下降方法对线性回归的模型参数进行训练，并分别对训练集和测试集的预测精度进行评价。
+      
+                              </div>
+      
+                              <div class="proj3">
+      
+                                  <div class="project-tag0">Python</div>
+                                  <div class="line"></div>
+                                  <div class="project-tag">线性回归模型</div>
+                                  <div class="line"></div>
+                                  <div class="project-tag">梯度下降算法</div>
+      
+                              </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div>
+                  <div style="position: relative;">
+                      <div class="E-background"></div>
+                      <div class="proj-picture">
+                          <img src="img/snn.png" alt="项目的DEMO图" style="width: 100%;height: 100%;">
+                      </div>
+                      <div id="project2" class="projects">
+                          <div class="div-proj-div">
+                              <div class="project-img">
+                                  <div><img src="img/rl.png" alt="项目的LOGO图" class="proj-img"></div>
+                              </div>
+                          </div>
+                          <di class="project-all">
+      
+                              <div class="proj1">
+                                  <div class="project-head">学成在线</div>
+      
+                                  <div class="project-time">2021.12 - 2021.12</div>
+                              </div>
+      
+                              <div class="proj2">
+                                  <div class="project-role">逻辑设计、开发、测试</div>
+                                  <div class="line"></div>
+                                  <div class="project-organization">xjtu</div>
+                              </div>
+      
+                              <div class="project-content">
+      
+                                  <b>Gitee仓库：<a href="https://test.com/lsyanling/exploring-the-universe">https://gitee.com/lsyanling/exploring-the-universe</a></b></br>
+                                  <b><a href="https://test.gitee.io/exploring-the-universe-build/">查看Demo</a></b>
+                                  </br>
+                                  </br>
+      
+                                  一个纯HTML、CSS开发的学习网站页面</br>
+      
+      
+                              </div>
+      
+                              <div class="proj3">
+      
+                                  <div class="project-tag0">Cocos Creator</div>
+                                  <div class="line"></div>
+                                  <div class="project-tag">TypeScript</div>
+                                  <!-- <div class="line"></div>
+                                  <div class="project-tag">JavaScript</div> -->
+      
+                              </div>
+                      </div>
+                  </div>
+              </div>
+      
+          </section>
+          
+    </body>
+
+
+</html>
